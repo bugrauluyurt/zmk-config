@@ -4,3 +4,5 @@ include:
     shield: Lily58_L nice_oled
   - board: nice_nano
     shield: Lily58_R nice_oled
+  - board: nice_nano
+    shield: settings_reset
