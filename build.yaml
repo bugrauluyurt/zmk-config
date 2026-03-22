@@ -1,6 +1,6 @@
 ---
 include:
   - board: nice_nano
-    shield: Lily58_L nice_oled
+    shield: Lily58_L
   - board: nice_nano
-    shield: Lily58_R nice_oled
+    shield: Lily58_R
