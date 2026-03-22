@@ -1,20 +1,14 @@
 manifest:
-  defaults:
-    revision: v0.3
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: PandaKBLab
-      url-base: https://github.com/PandaKBLab
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
   projects:
     - name: zmk
       remote: zmkfirmware
+      revision: v0.3
       import: app/west.yml
-    - name: zmk-for-PandaKB
-      remote: PandaKBLab
-      revision: PandaKB_Lily58
     - name: zmk-nice-oled
       remote: mctechnology17
       revision: main
