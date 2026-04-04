@@ -15,6 +15,9 @@
 };
 
 / {
+    /delete-node/ encoder_left;
+    /delete-node/ encoder_right;
+
     keymap {
         compatible = "zmk,keymap";
 
