@@ -1,8 +1,17 @@
 ---
 include:
+  - board: seeeduino_xiao_ble
+    shield: Lily58_dongle_prospector prospector_adapter
+    artifact-name: Lily58_dongle_prospector
   - board: nice_nano_v2
-    shield: Lily58_L nice_oled
+    shield: Lily58_dongle_left
+    artifact-name: Lily58_dongle_left
   - board: nice_nano_v2
-    shield: Lily58_R nice_oled
+    shield: Lily58_dongle_right
+    artifact-name: Lily58_dongle_right
   - board: nice_nano_v2
     shield: settings_reset
+    artifact-name: settings_reset_nice_nano_v2
+  - board: seeeduino_xiao_ble
+    shield: settings_reset
+    artifact-name: settings_reset_seeeduino_xiao_ble
