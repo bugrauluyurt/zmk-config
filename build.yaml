@@ -1,8 +1,8 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: Lily58_dongle_central prospector_adapter
-    artifact-name: Lily58_dongle_central_prospector
+    shield: Lily58_dongle_prospector prospector_adapter
+    artifact-name: Lily58_dongle_prospector
   - board: nice_nano_v2
     shield: Lily58_dongle_left
     artifact-name: Lily58_dongle_left

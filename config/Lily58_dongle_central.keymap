@@ -1,7 +1,0 @@
-#include "Lily58_dongle.keymap"
-
-/ {
-    /delete-node/ encoder_left;
-    /delete-node/ encoder_right;
-    /delete-node/ sensors;
-};
