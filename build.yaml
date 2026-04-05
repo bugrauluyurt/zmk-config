@@ -6,9 +6,11 @@ include:
   - board: nice_nano_v2
     shield: Lily58_dongle_left
     artifact-name: Lily58_dongle_left
+    cmake-args: -DCONFIG_ZMK_DISPLAY=n
   - board: nice_nano_v2
     shield: Lily58_dongle_right
     artifact-name: Lily58_dongle_right
+    cmake-args: -DCONFIG_ZMK_DISPLAY=n
   - board: nice_nano_v2
     shield: settings_reset
     artifact-name: settings_reset_nice_nano_v2
