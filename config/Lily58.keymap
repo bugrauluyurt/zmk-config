@@ -20,19 +20,19 @@
 // |------+------+------+------+------+------|                    |------+------+------+------+------+------|
 // | Tab  |   Q  |   W  |   E  |   R  |   T  |                    |   Y  |   U  |   I  |   O  |   P  |  \|  |
 // |------+------+------+------+------+------|                    |------+------+------+------+------+------|
-// | GUI  |   A  |   S  |   D  |   F  |   G  |-------.    ,-------|   H  |   J  |   K  |   L  |   ;  |  '   |
+// | CTL  |   A  |   S  |   D  |   F  |   G  |-------.    ,-------|   H  |   J  |   K  |   L  |   ;  |  '   |
 // |------+------+------+------+------+------|       |    |       |------+------+------+------+------+------|
 // |LShift|   Z  |   X  |   C  |   V  |   B  |-------|    |-------|   N  |   M  |   ,  |   .  |   /  |RShift|
 // `-----------------------------------------/       /     \      \-----------------------------------------'
-//                   | LCTL | LAlt |LOWER | /Space  /       \Enter \  |RAISE | Left |Right |
+//                   | GUI  | LAlt |LOWER | /Space  /       \Enter \  |RAISE | Left |Right |
 //                   |      |      |      |/       /         \      \ |      |      |      |
 //                   `----------------------------'           '------''--------------------'
             bindings = <
 &kp ESC   &kp N1 &kp N2 &kp N3   &kp N4   &kp N5                       &kp N6 &kp N7   &kp N8    &kp N9  &kp N0   &kp BSPC
 &kp TAB   &kp Q  &kp W  &kp E    &kp R    &kp T                        &kp Y  &kp U    &kp I     &kp O   &kp P    &kp BSLH
-&kp LGUI  &kp A  &kp S  &kp D    &kp F    &kp G                        &kp H  &kp J    &kp K     &kp L   &kp SEMI &kp SQT
+&kp LCTRL &kp A  &kp S  &kp D    &kp F    &kp G                        &kp H  &kp J    &kp K     &kp L   &kp SEMI &kp SQT
 &kp LSHFT &kp Z  &kp X  &kp C    &kp V    &kp B  &kp C_PP   &kp C_MUTE &kp N  &kp M    &kp COMMA &kp DOT &kp FSLH &kp RSHFT
-                         &kp LCTRL &kp LALT &mo 1  &kp SPACE  &kp RET   &mo 2  &kp LEFT &kp RIGHT
+                         &kp LCMD  &kp LALT &mo 1  &kp SPACE  &kp RET   &mo 2  &kp LEFT &kp RIGHT
             >;
         };
 
@@ -46,7 +46,7 @@
 // |------+------+------+------+------+------|       |    |       |------+------+------+------+------+------|
 // |LShift|      |      |      |      |      |-------|    |-------| PgDn |      |      | Left | Down |Right |
 // `-----------------------------------------/       /     \      \-----------------------------------------'
-//                   | LCTL | LAlt |LOWER | /Space  /       \Enter \  |RAISE | Home | End  |
+//                   | GUI  | LAlt |LOWER | /Space  /       \Enter \  |RAISE | Home | End  |
 //                   |      |      |      |/       /         \      \ |      |      |      |
 //                   `----------------------------'           '------''--------------------'
             bindings = <
@@ -54,7 +54,7 @@
 &trans    &trans    &trans &trans      &trans     &trans                       &trans    &kp LBKT &kp RBKT &kp LBRC &kp RBRC  &kp PIPE
 &trans    &trans    &trans &trans      &trans     &trans                       &kp PG_UP &trans   &kp LT   &kp GT   &kp UP    &trans
 &kp LSHFT &trans    &trans &trans      &trans     &trans    &trans   &trans    &kp PG_DN &trans   &trans   &kp LEFT &kp DOWN  &kp RIGHT
-                           &kp LCTRL  &kp LALT   &trans    &kp SPACE &kp RET  &mo 2     &kp HOME &kp END
+                           &kp LCMD   &kp LALT   &trans    &kp SPACE &kp RET  &mo 2     &kp HOME &kp END
             >;
         };
 
